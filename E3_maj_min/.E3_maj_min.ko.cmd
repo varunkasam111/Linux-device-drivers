@@ -1,0 +1,1 @@
+cmd_/home/pe-rnd3/BBB/MyLKMs/E3_maj_min/E3_maj_min.ko := arm-linux-gnueabihf-ld -r -EL -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o /home/pe-rnd3/BBB/MyLKMs/E3_maj_min/E3_maj_min.ko /home/pe-rnd3/BBB/MyLKMs/E3_maj_min/E3_maj_min.o /home/pe-rnd3/BBB/MyLKMs/E3_maj_min/E3_maj_min.mod.o;  true

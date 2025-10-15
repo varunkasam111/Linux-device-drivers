@@ -1,0 +1,1 @@
+cmd_/home/pe-rnd3/BBB/MyLKMs/E6_real_dev_driver/E6_real_dev_driver.mod := printf '%s\n'   E6_real_dev_driver.o | awk '!x[$$0]++ { print("/home/pe-rnd3/BBB/MyLKMs/E6_real_dev_driver/"$$0) }' > /home/pe-rnd3/BBB/MyLKMs/E6_real_dev_driver/E6_real_dev_driver.mod

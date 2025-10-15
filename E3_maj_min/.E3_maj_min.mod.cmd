@@ -1,0 +1,1 @@
+cmd_/home/pe-rnd3/BBB/MyLKMs/E3_maj_min/E3_maj_min.mod := printf '%s\n'   E3_maj_min.o | awk '!x[$$0]++ { print("/home/pe-rnd3/BBB/MyLKMs/E3_maj_min/"$$0) }' > /home/pe-rnd3/BBB/MyLKMs/E3_maj_min/E3_maj_min.mod

@@ -1,0 +1,1 @@
+savedcmd_hello.ko := arm-linux-gnueabihf-ld -r -EL -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T /home/pe-rnd3/BBB/bb-kernel-6.16.5/KERNEL/scripts/module.lds -o hello.ko hello.o hello.mod.o .module-common.o

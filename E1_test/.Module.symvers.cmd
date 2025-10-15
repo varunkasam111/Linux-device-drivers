@@ -1,0 +1,1 @@
+savedcmd_Module.symvers :=  /home/pe-rnd3/BBB/bb-kernel-6.16.5/KERNEL/scripts/mod/modpost -M -m -b        -o Module.symvers -T modules.order -i /home/pe-rnd3/BBB/bb-kernel-6.16.5/KERNEL/Module.symvers -e 
