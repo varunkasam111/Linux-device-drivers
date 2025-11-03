@@ -1,0 +1,1 @@
+cmd_/home/pe-rnd3/BBB/MyLKMs/E4_alloc_dev/E4_alloc_dev.mod := printf '%s\n'   E4_alloc_dev.o | awk '!x[$$0]++ { print("/home/pe-rnd3/BBB/MyLKMs/E4_alloc_dev/"$$0) }' > /home/pe-rnd3/BBB/MyLKMs/E4_alloc_dev/E4_alloc_dev.mod
