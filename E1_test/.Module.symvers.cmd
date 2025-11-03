@@ -1,1 +1,1 @@
-savedcmd_Module.symvers :=  /home/pe-rnd3/BBB/bb-kernel-6.16.5/KERNEL/scripts/mod/modpost -M -m -b        -o Module.symvers -T modules.order -i /home/pe-rnd3/BBB/bb-kernel-6.16.5/KERNEL/Module.symvers -e 
+cmd_/home/pe-rnd3/BBB/MyLKMs/E1_test/Module.symvers :=  sed 's/ko$$/o/'  /home/pe-rnd3/BBB/MyLKMs/E1_test/modules.order | scripts/mod/modpost -m      -o /home/pe-rnd3/BBB/MyLKMs/E1_test/Module.symvers -e -i Module.symvers -T - 

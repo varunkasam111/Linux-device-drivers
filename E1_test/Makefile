@@ -1,6 +1,6 @@
 obj-m += hello.o
 
-KDIR := ~/BBB/bb-kernel-6.16.5/KERNEL
+KDIR := ~/BBB/linux
 ARCH := arm
 CROSS_COMPILE := arm-linux-gnueabihf-
 
