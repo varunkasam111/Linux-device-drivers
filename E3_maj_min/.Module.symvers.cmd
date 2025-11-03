@@ -1,0 +1,1 @@
+cmd_/home/pe-rnd3/BBB/MyLKMs/E3_maj_min/Module.symvers :=  sed 's/ko$$/o/'  /home/pe-rnd3/BBB/MyLKMs/E3_maj_min/modules.order | scripts/mod/modpost -m      -o /home/pe-rnd3/BBB/MyLKMs/E3_maj_min/Module.symvers -e -i Module.symvers -T - 
