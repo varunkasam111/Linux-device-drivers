@@ -1,1 +1,0 @@
-cmd_/home/pe-rnd3/BBB/MyLKMs/params/Module.symvers :=  sed 's/ko$$/o/'  /home/pe-rnd3/BBB/MyLKMs/params/modules.order | scripts/mod/modpost -m      -o /home/pe-rnd3/BBB/MyLKMs/params/Module.symvers -e -i Module.symvers -T - 

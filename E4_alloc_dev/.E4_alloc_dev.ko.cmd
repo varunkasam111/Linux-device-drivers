@@ -1,1 +1,0 @@
-cmd_/home/pe-rnd3/BBB/MyLKMs/E4_alloc_dev/E4_alloc_dev.ko := arm-linux-gnueabihf-ld -r -EL -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o /home/pe-rnd3/BBB/MyLKMs/E4_alloc_dev/E4_alloc_dev.ko /home/pe-rnd3/BBB/MyLKMs/E4_alloc_dev/E4_alloc_dev.o /home/pe-rnd3/BBB/MyLKMs/E4_alloc_dev/E4_alloc_dev.mod.o;  true

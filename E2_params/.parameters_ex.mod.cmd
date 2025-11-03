@@ -1,1 +1,0 @@
-cmd_/home/pe-rnd3/BBB/MyLKMs/params/parameters_ex.mod := printf '%s\n'   parameters_ex.o | awk '!x[$$0]++ { print("/home/pe-rnd3/BBB/MyLKMs/params/"$$0) }' > /home/pe-rnd3/BBB/MyLKMs/params/parameters_ex.mod
