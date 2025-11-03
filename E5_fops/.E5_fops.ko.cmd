@@ -1,0 +1,1 @@
+cmd_/home/pe-rnd3/BBB/MyLKMs/E5_fops/E5_fops.ko := arm-linux-gnueabihf-ld -r -EL -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o /home/pe-rnd3/BBB/MyLKMs/E5_fops/E5_fops.ko /home/pe-rnd3/BBB/MyLKMs/E5_fops/E5_fops.o /home/pe-rnd3/BBB/MyLKMs/E5_fops/E5_fops.mod.o;  true
